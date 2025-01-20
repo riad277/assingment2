@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .quicksand-sand {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
 }
 
+.raleway-way {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  
+}
 /* someheight-width-style */
-header{
+header , main{
     max-width: 1019px;
     margin: 0 auto;
 }
@@ -89,6 +94,7 @@ header{
 }
 .banner-des{
     color:rgba(17, 17, 17, 1);
+    font-size: 1.1rem;
 }
 .banner-btn{
     width: 168px;
@@ -104,16 +110,70 @@ header{
     width: 100%;
 } */
 
+/* curriculumstyles */
 
+.curriculum{
+    background-image: url("assets/bg.png");
+}
+.curriculum-title{
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 2.53rem;
+    text-align: center;
+}
 
+.card-container{
+    gap: 28px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.card1{
+    background-image: linear-gradient(rgba(222, 245, 255, 1),rgba(255, 255, 255, 0));
+   border:0.94px solid rgba(222, 245, 255, 1);
+   border-radius: 19px;
+   padding: 46px 35px;
+   text-align: center;
+}
+.card2{
+    background-image: linear-gradient(rgba(255, 244, 220, 1),rgba(255, 255, 255, 0.4));
+    border: 0.94px solid rgba(255, 244, 220, 1);
+    border-radius: 19px;
+   padding: 46px 35px;
+   text-align: center;
+}
+.card3{
+    background-image: linear-gradient(rgba(238, 225, 255, 1),rgba(255, 255, 255, 0));
+    border: 0.94px solid rgba(242, 232, 255, 1);
+    border-radius: 19px;
+    padding: 46px 35px;
+    text-align: center;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 1.32rem;
+}
+.curriculum-des{
+    font-size: 0.82rem;
+}
+.read-1{
+    color: rgba(100, 200, 255, 1);
+    margin-top: 25px;
+    font-size: .825rem;
+    font-weight: bold;
+}
+.read-2{
+    color: rgba(240, 170, 0, 1);
+    margin-top: 30px;
+    font-size: .825rem;
+    font-weight: bold;
+}
 
-
-
-
-
-
-
-
+.read-3{
+    color: rgba(135, 0, 255, 1);
+    margin-top: 30px;
+    font-size: .825rem;
+    font-weight: bold;
+}
 
 
 
@@ -134,8 +194,28 @@ header{
     .banner-main{
         text-align:center ;
     }
-.banner-img {
+    .banner-img {
     width: 100%;
-}
+    }
+    .banner-main>h1{
+        font-size: 2rem;
+    }
+
+    /* curriculum-section */
+
+.card-container{
+    flex-direction: column;
     
+}
+
+
+
+
+
+
+
+
+
+
+
 }
