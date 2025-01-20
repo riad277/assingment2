@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.quicksand-sand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+}
+
+/* someheight-width-style */
+header{
+    max-width: 1019px;
+    margin: 0 auto;
+}
+.responsive{
+    display: none;
+}
+
+/* shared-style */
+.display{
+    display: flex;
+}
+
+
+/* navbarstyles */
+.navbar{
+    justify-content:space-between ;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.nav-container{
+    gap: 28px;
+}
+.school>h3{
+    font-weight: bold;
+    font-size: 1.265rem;
+    text-transform: uppercase;
+}
+.nav-link-1{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(254, 163, 1, 1);
+    margin-right: ;
+}
+.nav-link-2{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(1, 172, 253, 1);
+}
+
+.nav-link-3{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgba(5, 212, 223, 1);
+}
+.nav-link-4{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(93, 88, 239, 1);
+}
+.primary{
+    width: 170px;
+    background-color: rgba(254, 163, 1, 1);
+    padding: 10px;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.1rem;
+}
+
+/* banner styles */
+.banner{
+    align-items: center;
+    gap: 46px;
+}
+.banner-main>h1{
+    font-weight: bold;
+    font-size:3rem ;
+}
+#orange{
+    color: rgba(254, 163, 1, 1);
+}
+#blue{
+    color: rgba(1, 172, 253, 1);
+}
+.banner-des{
+    color:rgba(17, 17, 17, 1);
+}
+.banner-btn{
+    width: 168px;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background-color: rgba(17, 17, 17, 1);
+    margin-top: 20px;
+}
+/* .banner-img{
+    width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 570px) {
+    .school>h3 ,.nav-container,.primary{
+        display: none;
+    }
+    .responsive{
+        display: block;
+        border: none;
+        height: .5px;
+        background-color:rgba(254, 163, 1, 1);
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-main{
+        text-align:center ;
+    }
+.banner-img {
+    width: 100%;
+}
+    
+}
