@@ -178,8 +178,20 @@ footer{
     font-size: .825rem;
     font-weight: bold;
 }
-
-
+.sign-container{
+    text-align: center;
+}
+.sign{
+height: 52.8px;
+width: 52px;
+margin-right: 10px;
+background-color:rgba(254, 163, 1, 1);
+border-radius: 50%;
+color: white;
+border: none;
+font-size: 1.3rem;
+font-weight: bold;
+}
 
 /* footer-style */
 
@@ -238,7 +250,9 @@ footer{
     flex-direction: column;
     margin-top: 15px;
 }
-
+.sign-container{
+    display: none;
+}
 /* footers */
 .footer-container{
     flex-direction: column;
