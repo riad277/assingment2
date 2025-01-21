@@ -24,7 +24,10 @@ footer{
     background-color: rgba(1, 172, 253, 1);
     color: white;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 /* shared-style */
 .display{
     display: flex;
@@ -209,9 +212,107 @@ font-weight: bold;
     gap: 8px;
 }
 
+/* stories section */
+.stories{
+/* padding-left: 130px;
+padding-right: 130px; */
+background-image: linear-gradient(rgba(255, 255, 255, 0.3) 20%,rgba(254, 163, 1, 0.3) ),url("assets/bg.png");
+
+}
+.stories>h1{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+
+.container{
+    margin-bottom: 80px;
+    max-width: 1020px;
+    margin: 0 auto;
+    gap: 18px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.story1,.story2,.story3,.story4 ,.story5{
+    border-radius: 18px;
+    border: none;
+}
+.story1-img,.story2-img,.story3-img,.story4-img,.story5-img{
+    border-radius: 18px 18px 0 0;
+    width: 100%;
+}
+.story1-btn{
+    background-color: rgba(60, 216, 232, 1);
+    border-radius: 45px;
+    color:white;
+    padding:14px 12px;
+    border: none;
+}
+.story1-btn-container{
+    margin-top: -20px;
+    margin-left: 30px;
+    margin-bottom: 36px;
+}
+
+.part2{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 17px;
+}
+.btn{
+    margin-top: 70px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.story-btn{
+    width: 170px;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+.story1>h2{
+    padding-left: 37px;
+}
+.story1-des{
+    font-size: 0.88rem;
+    color: rgba(102, 102, 102, 1);
+    padding-left: 37px;
+    padding-right: 68px;
+    margin-top: 45px;
+    padding-bottom: 30px;
+}
+.story2-btn ,.story4-btn ,.story5-btn{
+    border: none;
+    border-radius: 45px;
+    background-color: rgba(149, 178, 38, 1);
+    color: white;
+    padding: 9px 18px;
+    font-size: .88rem;
+}
+.story2-4-5-btn-container{
+    margin-top: -20px;
+    margin-left: 30px;
+    margin-bottom: 23px;
+}
+.common{
+    color: rgba(0, 0, 0, 1);
+    font-size: .88rem;
+    font-weight: bold;
+    padding-left: 35px;
+    padding-right: 43px;
+    padding-bottom: 25px;
+}
 
 
 
+.bg{
+    background-color: rgba(255, 255, 255, 1);
+
+}
 
 
 
