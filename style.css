@@ -359,11 +359,22 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.3) 20%,rgba(254, 163, 1,
 
 
 
-
+.slider-icon{
+    display: none;
+}
 @media screen and (max-width : 570px) {
     .school>h3 ,.nav-container,.primary{
         display: none;
     }
+    .slider-icon{
+        display: block;
+        background-position-x: right ;
+    }
+    .slider{
+        width: 5%;
+        
+    }
+
     .responsive{
         display: block;
         border: none;
