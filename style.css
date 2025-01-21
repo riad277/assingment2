@@ -32,6 +32,16 @@ footer{
 .display{
     display: flex;
 }
+.admission-marquee {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
 
 
 /* navbarstyles */
@@ -388,14 +398,15 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.3) 20%,rgba(254, 163, 1,
 }
 
 .part2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-   max-width: 354px;
-   margin: 0 auto;
+    
+   grid-template-columns: repeat(2,1fr);
    gap: 26px;
-   padding-left: 28px;
+   padding-left:15px;
+   padding-right: 15px;
 }
-
+.common{
+    font-size: 0..53rem;
+}
 .story3-btn,.story2-btn,.story4-btn,.story5-btn{
     font-size: 0.53rem;
 }
