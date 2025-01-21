@@ -218,8 +218,9 @@ font-weight: bold;
 }
 
 .footer-container{
-    justify-content: space-between;
-    /* gap: 100px; */
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 120px;
     padding: 108px 200px 153px 123px;
 }
 
@@ -386,9 +387,8 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.3) 20%,rgba(254, 163, 1,
 }
 /* footers */
 .footer-container{
-    flex-direction: column;
-    /* justify-content: left;
-    align-items: start; */
+   grid-template-columns: repeat(1,1fr);
+   gap: 30px;
     padding-left: 30px;
     padding-bottom: 30px;
     /* max-height: 600px; */
@@ -406,6 +406,7 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.3) 20%,rgba(254, 163, 1,
 }
 
 .education{
+    
     margin-bottom: 20px;
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 1);
