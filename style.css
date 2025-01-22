@@ -42,7 +42,9 @@ footer{
     border-radius: 5px;
     text-transform: uppercase;
 }
-
+#menu{
+    display: none;
+}
 
 /* navbarstyles */
 .navbar{
@@ -363,6 +365,12 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.3) 20%,rgba(254, 163, 1,
     display: none;
 } */
 @media screen and (max-width : 570px) {
+
+    #menu{
+        display: block;
+        font-size: 2rem;
+    }
+
     .school>h3 ,.nav-container,.primary{
         display: none;
     }
